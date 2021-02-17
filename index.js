@@ -2,7 +2,7 @@ const fs = require('fs');
 const messages = JSON.parse(fs.readFileSync('result.json', 'utf8')).messages;
 
 if (!messages)
-    console.log("Messages JSON file not found. Is it named result.json, in the root folder of the program and exported as JSON via https://github.com/Tyrrrz/DiscordChatExporter")
+    console.log("Messages JSON file not found. Is it named result.json, in the root folder of the program and exported as JSON via https://github.com/Tyrrrz/DiscordChatExporter?")
 
 let result = {
     messages: { },
